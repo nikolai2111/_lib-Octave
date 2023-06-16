@@ -1,4 +1,4 @@
-function y=trigPoly(t,w_0, m, a, b)
+function y=trigPoly(t, w_0, m, a, b)
 %Calculates the value of the trigonomic Polynom at the point t
 %   Detailed explanation goes here
 

@@ -16,8 +16,6 @@ function fourierSpectrum(filename, xMin, xMax, format)
 %                   'audio'
 %                   Uses the function audioread.
 %                   Supported types (.wav, .mp3, .m4a, .mp4, etc.)
-%   displayPlot:    Is used for display the plot to check if it's right.
-%                   'Y' or 1 to display the plot.
 
 % Choosing the correct format
 if format == 'audio' % For audio formats

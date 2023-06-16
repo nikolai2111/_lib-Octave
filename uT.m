@@ -10,7 +10,7 @@ function ut=uTemp(temp)
 %   Temp:   Temperature in °C.
 
 %% Calculating the Thermal Voltage
-ut = ((1.3806488e-23) .* (273.15 + temp)) ./ (1.6021765e-19);
+ut = (1.3806488e-23 .* C2K(temp)) ./ (1.6021765e-19);
 
 end
 
