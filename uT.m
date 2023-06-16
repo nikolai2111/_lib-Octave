@@ -1,4 +1,4 @@
-function ut=uTemp(temp)
+function ut=uT(temp)
 %This function calcualtes the Thermal Voltage at a specific Temperature.
 %
 %   U_T = uTemp(Temp)
